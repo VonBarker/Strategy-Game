@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_WarriorTroopPlacer",
+  "%Name":"obj_TroopDeselector",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_WarriorTroopPlacer",
+  "name":"obj_TroopDeselector",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_TroopPlacer",
-    "path":"objects/obj_TroopPlacer/obj_TroopPlacer.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_WarriorTroop",
-    "path":"sprites/spr_WarriorTroop/spr_WarriorTroop.yy",
+    "name":"spr_TroopDeselector",
+    "path":"sprites/spr_TroopDeselector/spr_TroopDeselector.yy",
   },
   "spriteMaskId":null,
   "visible":true,
