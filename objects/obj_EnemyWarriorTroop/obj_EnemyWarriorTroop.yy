@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_WarriorTroop",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_EnemyWarriorTroop",
+  "eventList":[],
   "managed":true,
-  "name":"obj_WarriorTroop",
+  "name":"obj_EnemyWarriorTroop",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_Troop",
-    "path":"objects/obj_Troop/obj_Troop.yy",
+    "name":"obj_EnemyTroop",
+    "path":"objects/obj_EnemyTroop/obj_EnemyTroop.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_WarriorTroop",
-    "path":"sprites/spr_WarriorTroop/spr_WarriorTroop.yy",
+    "name":"spr_EnemyWarriorTroop",
+    "path":"sprites/spr_EnemyWarriorTroop/spr_EnemyWarriorTroop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

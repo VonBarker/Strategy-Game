@@ -35,6 +35,9 @@
   "name":"Strategy Game",
   "resources":[
     {"id":{"name":"font_Menu","path":"fonts/font_Menu/font_Menu.yy",},},
+    {"id":{"name":"obj_EnemyTroop","path":"objects/obj_EnemyTroop/obj_EnemyTroop.yy",},},
+    {"id":{"name":"obj_EnemyWarriorTroop","path":"objects/obj_EnemyWarriorTroop/obj_EnemyWarriorTroop.yy",},},
+    {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},},
     {"id":{"name":"obj_Grid","path":"objects/obj_Grid/obj_Grid.yy",},},
     {"id":{"name":"obj_Menu","path":"objects/obj_Menu/obj_Menu.yy",},},
     {"id":{"name":"obj_OpponentsZone","path":"objects/obj_OpponentsZone/obj_OpponentsZone.yy",},},
@@ -55,6 +58,7 @@
     {"id":{"name":"SettingsMenu","path":"scripts/SettingsMenu/SettingsMenu.yy",},},
     {"id":{"name":"ToggleFullscreen","path":"scripts/ToggleFullscreen/ToggleFullscreen.yy",},},
     {"id":{"name":"spr_Background","path":"sprites/spr_Background/spr_Background.yy",},},
+    {"id":{"name":"spr_EnemyWarriorTroop","path":"sprites/spr_EnemyWarriorTroop/spr_EnemyWarriorTroop.yy",},},
     {"id":{"name":"spr_Grid","path":"sprites/spr_Grid/spr_Grid.yy",},},
     {"id":{"name":"spr_GuiZone","path":"sprites/spr_GuiZone/spr_GuiZone.yy",},},
     {"id":{"name":"spr_MenuBox","path":"sprites/spr_MenuBox/spr_MenuBox.yy",},},

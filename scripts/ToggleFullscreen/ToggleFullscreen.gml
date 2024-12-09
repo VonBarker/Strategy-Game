@@ -3,5 +3,5 @@ function ToggleFullscreen(){
 	if(window_get_fullscreen()) obj_Settings.fullscreen = "True";
 	else obj_Settings.fullscreen = "False";
 	
-	SettingsMenu();
+	if(instance_exists(obj_Menu)) SettingsMenu();
 }
