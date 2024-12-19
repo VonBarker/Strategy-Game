@@ -1,7 +1,7 @@
 event_inherited();
 
 //When in the playable area the troop can be placed
-if(mouse_check_button_pressed(mb_left) && !place_meeting(x, y, obj_Troop) && !place_meeting(x, y, obj_OutOfBounds) && obj_Game.troopsPlaced < obj_Game.maxTroops) {
+if(mouse_check_button_pressed(mb_left) && !place_meeting(x, y, obj_Troop) && !place_meeting(x, y, obj_OutOfBounds) && !place_meeting(x, y, obj_OpponentsZone) && obj_Game.troopsPlaced < obj_Game.maxTroops) {
 	instance_create_layer(x, y, "Instances", obj_WarriorTroop);
 	obj_Game.troopsPlaced += 1;
 }

@@ -35,6 +35,7 @@
   "name":"Strategy Game",
   "resources":[
     {"id":{"name":"font_Menu","path":"fonts/font_Menu/font_Menu.yy",},},
+    {"id":{"name":"obj_Collision","path":"objects/obj_Collision/obj_Collision.yy",},},
     {"id":{"name":"obj_EnemyTroop","path":"objects/obj_EnemyTroop/obj_EnemyTroop.yy",},},
     {"id":{"name":"obj_EnemyWarriorTroop","path":"objects/obj_EnemyWarriorTroop/obj_EnemyWarriorTroop.yy",},},
     {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},},

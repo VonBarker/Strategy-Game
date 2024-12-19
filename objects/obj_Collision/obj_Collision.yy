@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_OpponentsZone",
+  "%Name":"obj_Collision",
   "eventList":[],
   "managed":true,
-  "name":"obj_OpponentsZone",
+  "name":"obj_Collision",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_OpponentsZone",
-    "path":"sprites/spr_OpponentsZone/spr_OpponentsZone.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

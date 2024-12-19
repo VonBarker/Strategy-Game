@@ -1,4 +1,5 @@
-target = instance_nearest(x, y, obj_Troop);
+if(instance_exists(obj_Troop)) target = instance_nearest(x, y, obj_Troop);
+else target = noone;
 
 spd = 8;
 hsp = 0;
