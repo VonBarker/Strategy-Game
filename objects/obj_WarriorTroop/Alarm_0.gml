@@ -1,3 +1,4 @@
+/// @description Pathfinding
 if(instance_exists(obj_EnemyTroop)) target = instance_nearest(x, y, obj_EnemyTroop);
 
 path_clear_points(path);
@@ -10,4 +11,4 @@ path_add_point(path, destinationX, destinationY, spd);
 
 path_start(path, spd, path_action_stop, false);
 
-alarm[0] = 15;
+if(pathfinding) alarm[0] = 15;

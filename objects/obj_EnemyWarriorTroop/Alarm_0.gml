@@ -1,4 +1,5 @@
-target = instance_nearest(x, y, obj_Troop);
+/// @description Pathfinding
+if(instance_exists(obj_WarriorTroop)) target = instance_nearest(x, y, obj_Troop);
 
 path_clear_points(path);
 path_add_point(path, x, y, spd);
@@ -10,4 +11,4 @@ path_add_point(path, destinationX, destinationY, spd);
 
 path_start(path, spd, path_action_stop, false);
 
-alarm[0] = 15;
+if(pathfinding) alarm[0] = 15;
