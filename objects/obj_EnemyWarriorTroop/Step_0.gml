@@ -8,6 +8,7 @@ if (place_meeting(x+hsp,y,obj_OutOfBounds))
 	}
 	hsp = 0;
 }
+
 x = x + hsp;
 
 //Vertical Collision
@@ -20,8 +21,11 @@ if (place_meeting(x,y+vsp,obj_OutOfBounds))
 	}
 	vsp = 0;
 }
+
 y = y + vsp;
 
 if (pathfinding && !collision_point(path_get_point_x(path, 1), path_get_point_y(path, 1), obj_OutOfBounds, false, true)) path_start(path, spd, path_action_stop, false);
+
+if(hp <= 0) instance_destroy();
 
 state();

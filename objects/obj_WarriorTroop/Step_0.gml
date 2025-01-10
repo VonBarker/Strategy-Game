@@ -1,5 +1,5 @@
 //Horizontal Collision
-if (place_meeting(x+hsp,y,obj_Collision))
+if(place_meeting(x+hsp,y,obj_Collision))
 {
 	path_end();
 	while (!place_meeting(x+sign(hsp),y,obj_Collision))
@@ -8,10 +8,10 @@ if (place_meeting(x+hsp,y,obj_Collision))
 	}
 	hsp = 0;
 }
-x = x + hsp;
+
 
 //Vertical Collision
-if (place_meeting(x,y+vsp,obj_Collision))
+if(place_meeting(x,y+vsp,obj_Collision))
 {
 	path_end();
 	while (!place_meeting(x,y+sign(vsp),obj_Collision))
@@ -22,6 +22,8 @@ if (place_meeting(x,y+vsp,obj_Collision))
 }
 y = y + vsp;
 
-if (pathfinding & !collision_point(path_get_point_x(path, 1), path_get_point_y(path, 1), obj_Collision, false, true)) path_start(path, spd, path_action_stop, false);
+if(pathfinding & !place_meeting(path_get_point_x(path, 1), path_get_point_y(path, 1), obj_Collision)) path_start(path, spd, path_action_stop, false);
+
+if(hp <= 0) instance_destroy();
 
 state();
