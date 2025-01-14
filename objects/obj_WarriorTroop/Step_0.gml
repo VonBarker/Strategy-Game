@@ -1,3 +1,6 @@
+if(obj_Game.roundStarted && !wasRoundStarted) state = pathfind;
+wasRoundStarted = obj_Game.roundStarted;
+
 //Horizontal Collision
 if(place_meeting(x+hsp,y,obj_Collision))
 {

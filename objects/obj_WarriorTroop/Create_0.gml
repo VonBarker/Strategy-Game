@@ -24,6 +24,8 @@ knockedBackDirection = 0;
 stunnedTime = 0;
 invincible = false;
 
+wasRoundStarted = false;
+
 pathfind = function() {
 	if(distance_to_object(target) <= 48 && !onCooldown) state = attack;
 	if(!pathfinding) {
