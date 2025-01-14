@@ -1,0 +1,2 @@
+if(roundEnded && won) draw_text(room_width/2 - string_width("You Won!")/2 + 56, room_height/2 - 32, "You Won!")
+if(roundEnded && !won) draw_text(room_width/2 - string_width("You Lost.")/2 + 56, room_height/2 - 32, "You Lost.")
