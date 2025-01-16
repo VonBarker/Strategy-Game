@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_6B3F6570","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_OutOfBounds_Bottom","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_OutOfBounds_Top","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_OutOfBounds_Left","path":"rooms/Level1/Level1.yy",},
@@ -14,7 +13,6 @@
     {"name":"inst_2F2D8EF7","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_2378480F","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_1B599757","path":"rooms/Level1/Level1.yy",},
-    {"name":"inst_7AF8FD96","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_304CCB41","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_144ECAC2","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_5CBBBBC1","path":"rooms/Level1/Level1.yy",},
@@ -22,6 +20,8 @@
     {"name":"inst_2E43E19F","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_3F38D7F3","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_552D0CAB","path":"rooms/Level1/Level1.yy",},
+    {"name":"inst_6B3F6570","path":"rooms/Level1/Level1.yy",},
+    {"name":"inst_7AF8FD96","path":"rooms/Level1/Level1.yy",},
   ],
   "isDnd":false,
   "layers":[

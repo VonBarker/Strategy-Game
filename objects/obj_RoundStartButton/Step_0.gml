@@ -5,7 +5,6 @@ if(position_meeting(mouse_x, mouse_y, self) && mouse_check_button_pressed(mb_lef
 }
 
 if(obj_Game.roundEnded && position_meeting(mouse_x, mouse_y, self) && mouse_check_button_pressed(mb_left) || obj_Game.roundEnded &&  keyboard_check_pressed(vk_space)) room_restart();
-if(obj_Game.roundEnded && position_meeting(mouse_x, mouse_y, self) && mouse_check_button_pressed(mb_left) || obj_Game.roundEnded &&  keyboard_check_pressed(vk_space) && obj_Game.won) {
+if(obj_Game.roundEnded && position_meeting(mouse_x, mouse_y, self) && mouse_check_button_pressed(mb_left)  && obj_Game.won || obj_Game.roundEnded &&  keyboard_check_pressed(vk_space) && obj_Game.won) {
 	room_goto_next();
-	obj_Game.won = false;
 }
