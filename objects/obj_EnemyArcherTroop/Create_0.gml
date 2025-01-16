@@ -12,7 +12,8 @@ pathfinding = false;
 thisWarriorsAttack = noone;
 
 attackCooldown = 120;
-onCooldown = false;
+onCooldown = true;
+alarm[1] = random_range(0,30);
 
 hp = 5;
 attackDamage = 5;
