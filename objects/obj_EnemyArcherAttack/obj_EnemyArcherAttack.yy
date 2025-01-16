@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_EnemyWarriorAttack",
+  "%Name":"obj_EnemyArcherAttack",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Collision","path":"objects/obj_Collision/obj_Collision.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_EnemyWarriorAttack",
+  "name":"obj_EnemyArcherAttack",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_EnemyWarriorAttack",
-    "path":"sprites/spr_EnemyWarriorAttack/spr_EnemyWarriorAttack.yy",
+    "name":"spr_EnemyArcherAttack",
+    "path":"sprites/spr_EnemyArcherAttack/spr_EnemyArcherAttack.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_WarriorTroop",
+  "%Name":"obj_ArcherTroop",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -11,7 +11,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_EnemyAttack","path":"objects/obj_EnemyAttack/obj_EnemyAttack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_WarriorTroop",
+  "name":"obj_ArcherTroop",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_WarriorTroop",
-    "path":"sprites/spr_WarriorTroop/spr_WarriorTroop.yy",
+    "name":"spr_ArcherTroop",
+    "path":"sprites/spr_ArcherTroop/spr_ArcherTroop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

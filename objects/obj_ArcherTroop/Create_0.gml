@@ -11,12 +11,12 @@ pathfinding = false;
 
 thisWarriorsAttack = noone;
 
-attackCooldown = 180;
+attackCooldown = 120;
 onCooldown = false;
 
-hp = 10;
-attackDamage = 2;
-knockback = 5;
+hp = 5;
+attackDamage = 5;
+knockback = 3;
 stun = 0.5;
 
 knockedBack = 0;
@@ -27,7 +27,7 @@ invincible = false;
 wasRoundStarted = false;
 
 pathfind = function() {
-	if(distance_to_object(target) <= 48 && !onCooldown) state = attack;
+	if(distance_to_object(target) <= 160 && !onCooldown) state = attack;
 	if(!pathfinding) {
 		pathfinding = true;
 		alarm[0] = 30;
@@ -44,7 +44,7 @@ attack = function() {
 			stun : stun,
 			creator : self
 		};
-		thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_WarriorAttack, variables);
+		thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_ArcherAttack, variables);
 		onCooldown = true;
 		alarm[1] = attackCooldown;
 	}

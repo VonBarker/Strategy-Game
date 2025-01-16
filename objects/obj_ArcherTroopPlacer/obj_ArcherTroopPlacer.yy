@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_EnemyWarriorAttack",
+  "%Name":"obj_ArcherTroopPlacer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_EnemyWarriorAttack",
+  "name":"obj_ArcherTroopPlacer",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_EnemyAttack",
-    "path":"objects/obj_EnemyAttack/obj_EnemyAttack.yy",
+    "name":"obj_TroopPlacer",
+    "path":"objects/obj_TroopPlacer/obj_TroopPlacer.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_EnemyWarriorAttack",
-    "path":"sprites/spr_EnemyWarriorAttack/spr_EnemyWarriorAttack.yy",
+    "name":"spr_ArcherTroop",
+    "path":"sprites/spr_ArcherTroop/spr_ArcherTroop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

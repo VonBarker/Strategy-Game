@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_EnemyWarriorAttack",
+  "%Name":"obj_ArcherAttack",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Collision","path":"objects/obj_Collision/obj_Collision.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_EnemyWarriorAttack",
+  "name":"obj_ArcherAttack",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_EnemyAttack",
-    "path":"objects/obj_EnemyAttack/obj_EnemyAttack.yy",
+    "name":"obj_Attack",
+    "path":"objects/obj_Attack/obj_Attack.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_EnemyWarriorAttack",
-    "path":"sprites/spr_EnemyWarriorAttack/spr_EnemyWarriorAttack.yy",
+    "name":"spr_ArcherAttack",
+    "path":"sprites/spr_ArcherAttack/spr_ArcherAttack.yy",
   },
   "spriteMaskId":null,
   "visible":true,

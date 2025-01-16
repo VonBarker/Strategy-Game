@@ -1,5 +1,5 @@
 /// @description Pathfinding
-if(instance_exists(obj_WarriorTroop)) {
+if(instance_exists(obj_Troop)) {
 	target = instance_nearest(x, y, obj_Troop);
 
 	path_clear_points(path);

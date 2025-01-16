@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_WarriorTroop",
+  "%Name":"obj_EnemyArcherTroop",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,18 +8,18 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_EnemyAttack","path":"objects/obj_EnemyAttack/obj_EnemyAttack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Attack","path":"objects/obj_Attack/obj_Attack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_WarriorTroop",
+  "name":"obj_EnemyArcherTroop",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_Troop",
-    "path":"objects/obj_Troop/obj_Troop.yy",
+    "name":"obj_EnemyTroop",
+    "path":"objects/obj_EnemyTroop/obj_EnemyTroop.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_WarriorTroop",
-    "path":"sprites/spr_WarriorTroop/spr_WarriorTroop.yy",
+    "name":"spr_EnemyArcherTroop",
+    "path":"sprites/spr_EnemyArcherTroop/spr_EnemyArcherTroop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

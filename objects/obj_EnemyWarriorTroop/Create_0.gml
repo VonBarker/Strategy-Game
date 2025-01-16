@@ -36,7 +36,7 @@ pathfind = function() {
 }
 
 attack = function() {
-	if(!pathfinding && !instance_exists(thisWarriorsAttack) && !onCooldown) {
+	if(!pathfinding && !instance_exists(thisWarriorsAttack) && !onCooldown && instance_exists(target)) {
 		var variables = {
 			angle : point_direction(x, y, target.x, target.y),
 			attackDamage : attackDamage,
