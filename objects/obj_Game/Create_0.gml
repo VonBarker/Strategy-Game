@@ -5,3 +5,5 @@ roundStarted = false;
 roundEnded = false;
 
 won = false;
+
+randomize();

@@ -1,4 +1,7 @@
-if(obj_Game.roundStarted && !wasRoundStarted) state = pathfind;
+if(obj_Game.roundStarted && !wasRoundStarted) {
+	state = pathfind;
+	alarm[1] = random_range(0,90);
+}
 wasRoundStarted = obj_Game.roundStarted;
 
 //Horizontal Collision

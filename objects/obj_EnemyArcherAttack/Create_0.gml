@@ -1,3 +1,6 @@
-image_angle = angle;
+image_angle = angle - 30;
 speed = 4;
-direction = image_angle;
+direction = angle;
+
+stopped = false;
+alarm[0] = 60;

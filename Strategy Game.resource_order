@@ -1,0 +1,6 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"spr_EnemyArcherAttack","order":1,"path":"sprites/spr_EnemyArcherAttack/spr_EnemyArcherAttack.yy",},
+  ],
+}
