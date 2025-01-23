@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_WarriorTroopSelector",
+  "%Name":"obj_ResizeButton",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_WarriorTroopSelector",
+  "name":"obj_ResizeButton",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_WarriorTroop",
-    "path":"sprites/spr_WarriorTroop/spr_WarriorTroop.yy",
+    "name":"spr_OpponentsZone",
+    "path":"sprites/spr_OpponentsZone/spr_OpponentsZone.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
