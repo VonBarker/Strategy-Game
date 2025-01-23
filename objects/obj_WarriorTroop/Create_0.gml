@@ -27,7 +27,7 @@ invincible = false;
 wasRoundStarted = false;
 
 pathfind = function() {
-	if(distance_to_object(target) <= 48 && !onCooldown) state = attack;
+	if(distance_to_object(target) <= 32 && !onCooldown) state = attack;
 	if(!pathfinding) {
 		pathfinding = true;
 		alarm[0] = 30;

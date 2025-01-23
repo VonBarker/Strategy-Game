@@ -4,6 +4,7 @@
     {"name":"obj_CloseButton","order":1,"path":"objects/obj_CloseButton/obj_CloseButton.yy",},
     {"name":"obj_Interactable","order":2,"path":"objects/obj_Interactable/obj_Interactable.yy",},
     {"name":"obj_ResizeButton","order":3,"path":"objects/obj_ResizeButton/obj_ResizeButton.yy",},
+    {"name":"obj_TankTroop","order":4,"path":"objects/obj_TankTroop/obj_TankTroop.yy",},
     {"name":"spr_EnemyArcherAttack","order":1,"path":"sprites/spr_EnemyArcherAttack/spr_EnemyArcherAttack.yy",},
   ],
 }

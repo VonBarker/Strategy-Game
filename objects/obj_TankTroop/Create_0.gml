@@ -1,4 +1,4 @@
-if(instance_exists(obj_Troop)) target = instance_nearest(x, y, obj_Troop);
+if(instance_exists(obj_EnemyTroop)) target = instance_nearest(x, y, obj_EnemyTroop);
 else target = noone;
 
 spd = 8;
@@ -11,13 +11,13 @@ pathfinding = false;
 
 thisWarriorsAttack = noone;
 
-attackCooldown = 180;
+attackCooldown = 240;
 onCooldown = false;
 
-hp = 10;
-attackDamage = 2;
-knockback = 5;
-stun = 0.5;
+hp = 20;
+attackDamage = 1;
+knockback = 15;
+stun = 2;
 
 knockedBack = 0;
 knockedBackDirection = 0;
@@ -27,7 +27,7 @@ invincible = false;
 wasRoundStarted = false;
 
 pathfind = function() {
-	if(distance_to_object(target) <= 32 && !onCooldown) state = attack;
+	if(distance_to_object(target) <= 48 && !onCooldown) state = attack;
 	if(!pathfinding) {
 		pathfinding = true;
 		alarm[0] = 30;
@@ -44,7 +44,7 @@ attack = function() {
 			stun : stun,
 			creator : self
 		};
-		thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_EnemyWarriorAttack, variables);
+		thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_WarriorAttack, variables);
 		onCooldown = true;
 		alarm[1] = attackCooldown;
 	}
