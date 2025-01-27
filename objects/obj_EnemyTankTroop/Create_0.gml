@@ -43,7 +43,7 @@ attack = function() {
 			stun : stun,
 			creator : self
 		};
-		thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_TankAttack, variables);
+		thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_EnemyTankAttack, variables);
 		onCooldown = true;
 		alarm[1] = attackCooldown;
 	}

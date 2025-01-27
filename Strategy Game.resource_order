@@ -2,6 +2,7 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"obj_CloseButton","order":1,"path":"objects/obj_CloseButton/obj_CloseButton.yy",},
+    {"name":"obj_EnemyTankAttack","order":9,"path":"objects/obj_EnemyTankAttack/obj_EnemyTankAttack.yy",},
     {"name":"obj_EnemyTankTroop","order":8,"path":"objects/obj_EnemyTankTroop/obj_EnemyTankTroop.yy",},
     {"name":"obj_Interactable","order":2,"path":"objects/obj_Interactable/obj_Interactable.yy",},
     {"name":"obj_ResizeButton","order":3,"path":"objects/obj_ResizeButton/obj_ResizeButton.yy",},
@@ -11,7 +12,9 @@
     {"name":"obj_TankTroopSelector","order":7,"path":"objects/obj_TankTroopSelector/obj_TankTroopSelector.yy",},
     {"name":"Level2","order":1,"path":"rooms/Level2/Level2.yy",},
     {"name":"spr_EnemyArcherAttack","order":1,"path":"sprites/spr_EnemyArcherAttack/spr_EnemyArcherAttack.yy",},
+    {"name":"spr_EnemyTankAttack","order":6,"path":"sprites/spr_EnemyTankAttack/spr_EnemyTankAttack.yy",},
     {"name":"spr_EnemyTankTroop","order":4,"path":"sprites/spr_EnemyTankTroop/spr_EnemyTankTroop.yy",},
+    {"name":"spr_StartMenuBackground","order":5,"path":"sprites/spr_StartMenuBackground/spr_StartMenuBackground.yy",},
     {"name":"spr_TankAttack","order":2,"path":"sprites/spr_TankAttack/spr_TankAttack.yy",},
     {"name":"spr_TankTroop","order":3,"path":"sprites/spr_TankTroop/spr_TankTroop.yy",},
   ],

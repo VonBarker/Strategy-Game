@@ -1,0 +1,1 @@
+if(image_index = 7) alarm[0] = 1;
