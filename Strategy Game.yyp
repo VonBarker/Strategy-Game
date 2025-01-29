@@ -94,7 +94,6 @@
     {"id":{"name":"spr_MenuBox","path":"sprites/spr_MenuBox/spr_MenuBox.yy",},},
     {"id":{"name":"spr_OpponentsZone","path":"sprites/spr_OpponentsZone/spr_OpponentsZone.yy",},},
     {"id":{"name":"spr_OutOfBounds","path":"sprites/spr_OutOfBounds/spr_OutOfBounds.yy",},},
-    {"id":{"name":"spr_RoundStartButton","path":"sprites/spr_RoundStartButton/spr_RoundStartButton.yy",},},
     {"id":{"name":"spr_SettingsButton","path":"sprites/spr_SettingsButton/spr_SettingsButton.yy",},},
     {"id":{"name":"spr_StartButton","path":"sprites/spr_StartButton/spr_StartButton.yy",},},
     {"id":{"name":"spr_StartMenuBackground","path":"sprites/spr_StartMenuBackground/spr_StartMenuBackground.yy",},},
