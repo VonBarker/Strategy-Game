@@ -11,7 +11,7 @@ pathfinding = false;
 
 thisWarriorsAttack = noone;
 
-attackCooldown = 120;
+attackCooldown = 240;
 onCooldown = true;
 
 hp = 5;
