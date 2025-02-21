@@ -8,8 +8,8 @@
   "name":"obj_ArcherTroopSelector",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"UIButtons",
+    "path":"folders/Objects/UIButtons.yy",
   },
   "parentObjectId":{
     "name":"obj_Interactable",

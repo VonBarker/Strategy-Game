@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Warrior",
+    "path":"folders/Sprites/EnemyTroops/Warrior.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

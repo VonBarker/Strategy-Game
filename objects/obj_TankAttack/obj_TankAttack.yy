@@ -9,8 +9,8 @@
   "name":"obj_TankAttack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Tank",
+    "path":"folders/Objects/Troops/Tank.yy",
   },
   "parentObjectId":{
     "name":"obj_Attack",

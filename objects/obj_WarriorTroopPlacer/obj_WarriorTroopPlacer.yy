@@ -9,8 +9,8 @@
   "name":"obj_WarriorTroopPlacer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Warrior",
+    "path":"folders/Objects/Troops/Warrior.yy",
   },
   "parentObjectId":{
     "name":"obj_TroopPlacer",

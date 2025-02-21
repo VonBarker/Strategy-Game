@@ -6,8 +6,8 @@
   "name":"obj_EnemyTroop",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"EnemyTroops",
+    "path":"folders/Objects/EnemyTroops.yy",
   },
   "parentObjectId":{
     "name":"obj_Collision",

@@ -6,8 +6,8 @@
   "name":"obj_Interactable",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"UIButtons",
+    "path":"folders/Objects/UIButtons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

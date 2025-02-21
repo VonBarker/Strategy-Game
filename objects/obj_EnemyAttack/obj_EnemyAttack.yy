@@ -6,8 +6,8 @@
   "name":"obj_EnemyAttack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"EnemyTroops",
+    "path":"folders/Objects/EnemyTroops.yy",
   },
   "parentObjectId":null,
   "persistent":false,

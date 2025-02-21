@@ -8,8 +8,8 @@
   "name":"obj_TroopPlacer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Troops",
+    "path":"folders/Objects/Troops.yy",
   },
   "parentObjectId":null,
   "persistent":false,

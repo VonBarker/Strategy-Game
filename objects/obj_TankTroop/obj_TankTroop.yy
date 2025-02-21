@@ -15,8 +15,8 @@
   "name":"obj_TankTroop",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Tank",
+    "path":"folders/Objects/Troops/Tank.yy",
   },
   "parentObjectId":{
     "name":"obj_Troop",

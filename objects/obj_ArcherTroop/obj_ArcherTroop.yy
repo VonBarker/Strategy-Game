@@ -14,8 +14,8 @@
   "name":"obj_ArcherTroop",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Archer",
+    "path":"folders/Objects/Troops/Archer.yy",
   },
   "parentObjectId":{
     "name":"obj_Troop",
