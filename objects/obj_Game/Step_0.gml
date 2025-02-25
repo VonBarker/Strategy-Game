@@ -12,3 +12,6 @@ if(roundStarted && !instance_exists(obj_EnemyTroop)) {
 	
 	instance_create_depth(0, 0, -999, obj_RoundEndScreen);
 }
+
+troopCounter.number = instance_number(obj_Troop);
+enemyTroopCounter.number = instance_number(obj_EnemyTroop);

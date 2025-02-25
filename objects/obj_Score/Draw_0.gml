@@ -1,0 +1,1 @@
+draw_sprite_part(spr_Score, 0, spriteXStart, spriteYStart, spriteWidth, spriteHeight, x, y);
