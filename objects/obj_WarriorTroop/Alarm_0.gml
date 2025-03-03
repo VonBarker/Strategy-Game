@@ -1,17 +1,16 @@
 /// @description Pathfinding
 if(instance_exists(obj_EnemyTroop)) {
 	target = instance_nearest(x, y, obj_EnemyTroop);
-
-	path_clear_points(path);
-	path_add_point(path, x, y, spd);
-	if(point_direction(target.x, target.y, x, y) < 90 || point_direction(target.x, target.y, x, y) > 270) destinationX = target.x - sin(point_direction(target.x, target.y, x, y))*64;
-	else destinationX = target.x + sin(point_direction(target.x, target.y, x, y))*64;
-	if(point_direction(target.x, target.y, x, y) < 180) destinationY = target.y - cos(point_direction(target.x, target.y, x, y))*64;
-	else destinationY = target.y + cos(point_direction(target.x, target.y, x, y))*64;
-	path_add_point(path, destinationX, destinationY, spd);
+	targetX = target.x;
+	targetY = target.y;
 }
-else path_clear_points(path);
+else {
+	targetX = 480;
+	targetY = 160;
+}
 
-path_start(path, spd, path_action_stop, false);
+path_delete(path);
+path = path_add();
+mp_grid_path(global.grid, path, x, y, targetX, targetY, true);
 
 if(pathfinding) alarm[0] = 30;

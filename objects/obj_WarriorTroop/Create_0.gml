@@ -1,7 +1,9 @@
 if(instance_exists(obj_EnemyTroop)) target = instance_nearest(x, y, obj_EnemyTroop);
 else target = noone;
+targetX = 480;
+targetY = 160;
 
-spd = 8;
+spd = 0.5;
 hsp = 0;
 vsp = 0;
 
@@ -32,6 +34,9 @@ pathfind = function() {
 		pathfinding = true;
 		alarm[0] = 30;
 	}
+	var nextX = path_get_point_x(path, 1);
+	var nextY = path_get_point_y(path, 1);
+	mp_potential_step_object(nextX, nextY, spd, obj_Collision);
 	invincible = false;
 }
 

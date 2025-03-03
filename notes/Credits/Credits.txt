@@ -1,2 +1,5 @@
-Font used for Score
-https://opengameart.org/content/boxy-bold-truetype-font
+Font used for score
+opengameart.org/content/boxy-bold-truetype-font
+
+Fonts on win and lose screens
+cooltext.com
