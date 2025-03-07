@@ -28,8 +28,6 @@ if(place_meeting(x,y+vsp,obj_Collision))
 }
 y = y + vsp;
 
-if(pathfinding & !place_meeting(path_get_point_x(path, 1), path_get_point_y(path, 1), obj_Collision)) path_start(path, spd, path_action_stop, false);
-
 if(hp <= 0) {
 	instance_destroy();
 }
