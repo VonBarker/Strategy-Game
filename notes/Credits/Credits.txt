@@ -3,3 +3,9 @@ opengameart.org/content/boxy-bold-truetype-font
 
 Fonts on win and lose screens
 cooltext.com
+
+WASD Icon
+https://opengameart.org/content/keyboard-keys-1
+
+Mouse Buttons Icon
+https://opengameart.org/content/mouse-buttons-arrow-keys

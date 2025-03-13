@@ -35,7 +35,6 @@ pathfind = function() {
 	var nextX = path_get_point_x(path, 1);
 	var nextY = path_get_point_y(path, 1);
 	mp_potential_step_object(nextX, nextY, spd, obj_Collision);
-	invincible = false;
 }
 
 attack = function() {
