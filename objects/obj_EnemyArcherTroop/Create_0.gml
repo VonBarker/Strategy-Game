@@ -44,7 +44,9 @@ attack = function() {
 			attackDamage : attackDamage,
 			knockback : knockback,
 			stun : stun,
-			creator : self
+			creator : self,
+			xScale : image_xscale,
+			yScale : image_yscale
 		};
 		thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_EnemyArcherAttack, variables);
 		onCooldown = true;

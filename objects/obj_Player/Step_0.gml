@@ -36,7 +36,9 @@ if (keyAttack && !onCooldown) {
 		attackDamage : attackDamage,
 		knockback : knockback,
 		stun : stun,
-		creator : self
+		creator : self,
+		xScale : image_xscale,
+		yScale : image_yscale
 	};
 	thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_WarriorAttack, variables);
 	onCooldown = true;
@@ -49,7 +51,9 @@ if (keyRangedAttack && !rangeOnCooldown) {
 		attackDamage : attackDamage/2,
 		knockback : knockback/2,
 		stun : stun,
-		creator : self
+		creator : self,
+		xScale : image_xscale,
+		yScale : image_yscale
 	};
 	thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_ArcherAttack, variables);
 	rangeOnCooldown = true;
