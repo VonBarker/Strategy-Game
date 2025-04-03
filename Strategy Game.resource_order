@@ -30,6 +30,7 @@
     {"name":"obj_EnemyTankTroop","order":1,"path":"objects/obj_EnemyTankTroop/obj_EnemyTankTroop.yy",},
     {"name":"obj_EnemyTroop","order":5,"path":"objects/obj_EnemyTroop/obj_EnemyTroop.yy",},
     {"name":"obj_EnemyWarriorTroop","order":1,"path":"objects/obj_EnemyWarriorTroop/obj_EnemyWarriorTroop.yy",},
+    {"name":"obj_GridSmall","order":19,"path":"objects/obj_GridSmall/obj_GridSmall.yy",},
     {"name":"obj_Interactable","order":5,"path":"objects/obj_Interactable/obj_Interactable.yy",},
     {"name":"obj_ResizeButton","order":1,"path":"objects/obj_ResizeButton/obj_ResizeButton.yy",},
     {"name":"obj_RoundEndScreen","order":15,"path":"objects/obj_RoundEndScreen/obj_RoundEndScreen.yy",},

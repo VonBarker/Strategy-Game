@@ -26,8 +26,10 @@ invincible = false;
 
 wasRoundStarted = false;
 
+scale = image_xscale;
+
 pathfind = function() {
-	if(distance_to_object(target) <= 48 && !onCooldown) state = attack;
+	if(distance_to_object(target) <= 48*scale && !onCooldown) state = attack;
 	if(!pathfinding) {
 		pathfinding = true;
 		alarm[0] = 30;

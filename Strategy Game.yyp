@@ -72,6 +72,7 @@
     {"id":{"name":"obj_EnemyWarriorTroop","path":"objects/obj_EnemyWarriorTroop/obj_EnemyWarriorTroop.yy",},},
     {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},},
     {"id":{"name":"obj_Grid","path":"objects/obj_Grid/obj_Grid.yy",},},
+    {"id":{"name":"obj_GridSmall","path":"objects/obj_GridSmall/obj_GridSmall.yy",},},
     {"id":{"name":"obj_Interactable","path":"objects/obj_Interactable/obj_Interactable.yy",},},
     {"id":{"name":"obj_Menu","path":"objects/obj_Menu/obj_Menu.yy",},},
     {"id":{"name":"obj_OpponentsZone","path":"objects/obj_OpponentsZone/obj_OpponentsZone.yy",},},
@@ -142,12 +143,12 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"StartScreen","path":"rooms/StartScreen/StartScreen.yy",},},
+    {"roomId":{"name":"Level6","path":"rooms/Level6/Level6.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"roomId":{"name":"Level4","path":"rooms/Level4/Level4.yy",},},
     {"roomId":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
-    {"roomId":{"name":"Level6","path":"rooms/Level6/Level6.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
