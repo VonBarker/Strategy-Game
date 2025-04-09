@@ -79,6 +79,7 @@
     {"id":{"name":"obj_OutOfBounds","path":"objects/obj_OutOfBounds/obj_OutOfBounds.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_ResizeButton","path":"objects/obj_ResizeButton/obj_ResizeButton.yy",},},
+    {"id":{"name":"obj_ReturnToStart","path":"objects/obj_ReturnToStart/obj_ReturnToStart.yy",},},
     {"id":{"name":"obj_RoundEndScreen","path":"objects/obj_RoundEndScreen/obj_RoundEndScreen.yy",},},
     {"id":{"name":"obj_RoundStartButton","path":"objects/obj_RoundStartButton/obj_RoundStartButton.yy",},},
     {"id":{"name":"obj_Score","path":"objects/obj_Score/obj_Score.yy",},},
@@ -105,6 +106,7 @@
     {"id":{"name":"Level4","path":"rooms/Level4/Level4.yy",},},
     {"id":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
     {"id":{"name":"Level6","path":"rooms/Level6/Level6.yy",},},
+    {"id":{"name":"returnToStart","path":"rooms/returnToStart/returnToStart.yy",},},
     {"id":{"name":"StartScreen","path":"rooms/StartScreen/StartScreen.yy",},},
     {"id":{"name":"MenuFunctions","path":"scripts/MenuFunctions/MenuFunctions.yy",},},
     {"id":{"name":"Screenshake","path":"scripts/Screenshake/Screenshake.yy",},},
@@ -153,6 +155,7 @@
     {"roomId":{"name":"Level4","path":"rooms/Level4/Level4.yy",},},
     {"roomId":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
     {"roomId":{"name":"Level6","path":"rooms/Level6/Level6.yy",},},
+    {"roomId":{"name":"returnToStart","path":"rooms/returnToStart/returnToStart.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
