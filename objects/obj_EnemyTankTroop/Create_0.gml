@@ -16,6 +16,8 @@ onCooldown = false;
 
 hp = 15;
 maxHp = 15;
+healthColor = 0;
+
 attackDamage = 1;
 knockback = 15;
 stun = 2;
