@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdr_Monochrome",
+  "name":"shdr_Monochrome",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

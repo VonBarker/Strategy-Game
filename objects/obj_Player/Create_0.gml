@@ -11,6 +11,7 @@ rangedAttackCooldown = 120;
 rangeOnCooldown = false;
 
 hp = 10;
+maxHp = 10;
 attackDamage = 2;
 knockback = 5;
 stun = 0.5;

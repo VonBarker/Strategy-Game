@@ -15,6 +15,7 @@ attackCooldown = 240;
 onCooldown = false;
 
 hp = 15;
+maxHp = 15;
 attackDamage = 1;
 knockback = 15;
 stun = 2;
