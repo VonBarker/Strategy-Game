@@ -43,6 +43,7 @@ if (keyAttack && !onCooldown) {
 	thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_WarriorAttack, variables);
 	onCooldown = true;
 	alarm[1] = attackCooldown;
+	attackCooldownCounter = 0;
 }
 
 if (keyRangedAttack && !rangeOnCooldown) {
@@ -58,6 +59,9 @@ if (keyRangedAttack && !rangeOnCooldown) {
 	thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_ArcherAttack, variables);
 	rangeOnCooldown = true;
 	alarm[2] = rangedAttackCooldown;
+	rangedAttackCooldownCounter = 0;
 }
 
 if (hp <= 0) instance_destroy();
+if (attackCooldownCounter < 60) attackCooldownCounter++;
+if (rangedAttackCooldownCounter < 120) rangedAttackCooldownCounter++;

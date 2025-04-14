@@ -5,9 +5,11 @@ vsp = 0;
 thisWarriorsAttack = noone;
 
 attackCooldown = 60;
+attackCooldownCounter = 60;
 onCooldown = false;
 
 rangedAttackCooldown = 120;
+rangedAttackCooldownCounter = 60;
 rangeOnCooldown = false;
 
 hp = 10;
