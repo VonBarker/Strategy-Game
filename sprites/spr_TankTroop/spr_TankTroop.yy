@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_TankTroop",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":31,
-  "bbox_left":1,
-  "bbox_right":30,
+  "bbox_left":0,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

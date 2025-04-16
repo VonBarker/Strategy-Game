@@ -1,9 +1,9 @@
 {
   "$GMSprite":"",
   "%Name":"spr_EnemyWarriorAttack",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":77,
-  "bbox_left":47,
+  "bbox_left":66,
   "bbox_right":95,
   "bbox_top":18,
   "collisionKind":1,
