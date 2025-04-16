@@ -1,5 +1,5 @@
 image_angle = angle - 30;
-speed = 4;
+speed = 4*xScale;
 direction = angle;
 
 stopped = false;
