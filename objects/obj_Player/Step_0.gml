@@ -63,5 +63,6 @@ if (keyRangedAttack && !rangeOnCooldown) {
 }
 
 if (hp <= 0) instance_destroy();
+else if (hp > maxHp) hp = maxHp;
 if (attackCooldownCounter < 60) attackCooldownCounter++;
 if (rangedAttackCooldownCounter < 120) rangedAttackCooldownCounter++;

@@ -1,1 +1,1 @@
-room_goto(6);
+room_goto(4);
