@@ -1,5 +1,9 @@
 troopsPlaced = 0;
 maxTroops = 5;
+if (room == 1) {
+	maxTroops = 2;
+	TutorialDialog();
+}
 
 roundStarted = false;
 roundEnded = false;
@@ -15,4 +19,4 @@ if (instance_exists(obj_RoundStartButton)) {
 
 showHealthBars = false;
 
-if (room >= 4) showHealthBars = true;
+if (room >= 5) showHealthBars = true;

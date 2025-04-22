@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_InputsPressed",
-    "path":"sprites/spr_InputsPressed/spr_InputsPressed.yy",
+    "name":"spr_Inputs",
+    "path":"sprites/spr_Inputs/spr_Inputs.yy",
   },
   "spriteMaskId":null,
   "visible":true,
