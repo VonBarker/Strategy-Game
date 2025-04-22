@@ -6,8 +6,8 @@
   "name":"obj_OpponentsZone",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"WorldObjects",
+    "path":"folders/Objects/WorldObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"UIButtons",
-    "path":"folders/Objects/UIButtons.yy",
+    "path":"folders/Objects/UI/UIButtons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"UIButtons",
-    "path":"folders/Objects/UIButtons.yy",
+    "path":"folders/Objects/UI/UIButtons.yy",
   },
   "parentObjectId":{
     "name":"obj_Interactable",
