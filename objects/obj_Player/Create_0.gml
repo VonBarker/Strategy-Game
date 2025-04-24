@@ -1,4 +1,4 @@
-spd = 0.5;
+defaultSpd = 0.75;
 hsp = 0;
 vsp = 0;
 

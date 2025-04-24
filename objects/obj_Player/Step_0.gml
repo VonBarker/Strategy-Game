@@ -5,6 +5,8 @@ var keyRight = keyboard_check(ord("D"));
 var keyAttack = mouse_check_button(mb_left);
 var keyRangedAttack = mouse_check_button(mb_right);
 
+if (keyRight - keyLeft != 0 && keyDown - keyUp != 0) var spd = defaultSpd/14*10;
+else spd = defaultSpd
 hsp = (keyRight - keyLeft)*spd;
 vsp = (keyDown - keyUp)*spd;
 
