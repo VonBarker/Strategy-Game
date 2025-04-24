@@ -4,10 +4,10 @@ function SettingsMenu(){
 			room_width/8 * 3,
 			room_height/3,
 			[
-				["Fullscreen:  " + obj_Settings.fullscreen, ToggleFullscreen],
-				["Close", -1]
+				["FULLSCREEN:  " + obj_Settings.fullscreen, ToggleFullscreen],
+				["CLOSE", -1]
 			],
-			"Settings -",
+			"SETTINGS -",
 			room_width/4,
 			room_height/3
 		)

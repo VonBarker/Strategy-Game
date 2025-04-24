@@ -6,5 +6,5 @@ if (r = 1) {
 		xScale : image_xscale,
 		yScale : image_yscale
 	};
-	if (room >= 4) instance_create_layer(x, y, "Instances", obj_Heal, variables);
+	if (room >= 5) instance_create_layer(x, y, "Instances", obj_Heal, variables);
 }

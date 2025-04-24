@@ -1,6 +1,6 @@
 repeat 16 {
 	var variables = {
-			color : make_color_rgb(30, 136, 229),
+			color : make_color_rgb(102, 45, 145),
 			xScale : image_xscale,
 			yScale : image_yscale
 		};

@@ -16,6 +16,7 @@
     {"name":"Tank","order":2,"path":"folders/Sprites/EnemyTroops/Tank.yy",},
     {"name":"Warrior","order":3,"path":"folders/Sprites/EnemyTroops/Warrior.yy",},
     {"name":"Troops","order":15,"path":"folders/Sprites/Troops.yy",},
+    {"name":"Player","order":3,"path":"folders/Sprites/Troops/Player.yy",},
     {"name":"Tank","order":2,"path":"folders/Sprites/Troops/Tank.yy",},
     {"name":"Warrior","order":1,"path":"folders/Sprites/Troops/Warrior.yy",},
     {"name":"UI","order":33,"path":"folders/Sprites/UI.yy",},
