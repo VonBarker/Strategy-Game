@@ -7,8 +7,10 @@ var keyRangedAttack = mouse_check_button(mb_right);
 
 if (keyRight - keyLeft != 0 && keyDown - keyUp != 0) var spd = defaultSpd/14*10;
 else spd = defaultSpd
-hsp = (keyRight - keyLeft)*spd;
-vsp = (keyDown - keyUp)*spd;
+if (obj_Game.roundStarted) {
+	hsp = (keyRight - keyLeft)*spd;
+	vsp = (keyDown - keyUp)*spd;
+}
 
 //Horizontal Collision
 if(place_meeting(x+hsp,y,obj_Collision)) {

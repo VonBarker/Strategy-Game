@@ -15,3 +15,5 @@ mp_grid_add_instances(global.grid, obj_OutOfBounds, false);
 //Brute force bad fix for issue with top and left out of bounds walls
 mp_grid_clear_rectangle(global.grid, 113, 49, 495, 49);
 mp_grid_clear_rectangle(global.grid, 113, 49, 113, 271);
+
+mp_grid_add_instances(global.grid, obj_Wall, true);

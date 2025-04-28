@@ -1,4 +1,4 @@
 /// @description Vision
-VisionForObjects(sightRadius, obj_Player, visionCollisionObjects);
+VisionForObjects(sightRadius, obj_Troop, visionCollisionObjects);
 
 alarm[1] = 10;

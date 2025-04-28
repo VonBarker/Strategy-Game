@@ -4,6 +4,9 @@ if (room == 1) {
 	maxTroops = 2;
 	TutorialDialog();
 }
+else if (room == 7) {
+	maxTroops = 3;
+}
 
 roundStarted = false;
 roundEnded = false;

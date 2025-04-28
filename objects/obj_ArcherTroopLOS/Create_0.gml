@@ -1,8 +1,9 @@
+obj_Game.troopsPlaced +=1;
 spd = 0.5;
 
 thisWarriorsAttack = noone;
 
-attackCooldown = 240;
+attackCooldown = 180;
 onCooldown = false;
 
 hp = 5;
@@ -23,15 +24,13 @@ targetY = y;
 
 path = path_add();
 
-if (instance_exists(obj_Troop)) {
-	target = obj_Troop;
+if (instance_exists(obj_EnemyTroop)) {
+	target = obj_EnemyTroop;
 	targetX = target.x;
 	targetY = target.y;
 }
 
 visionCollisionObjects = [obj_Wall];
-
-alarm[1] = 10;
 
 startX = x;
 startY = y;
@@ -42,6 +41,7 @@ sightRadius = 96;
 
 idleState = function() {
 	sightRadius = 96;
+	if (obj_Game.roundStarted) alarm[1] = 1;
 }
 
 createPathState = function() {
@@ -69,7 +69,7 @@ attackState = function() {
 			xScale : image_xscale,
 			yScale : image_yscale
 		};
-		thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_EnemyArcherAttack, variables);
+		thisWarriorsAttack = instance_create_layer(x, y, "Instances", obj_ArcherAttack, variables);
 		onCooldown = true;
 		alarm[2] = attackCooldown;
 	}

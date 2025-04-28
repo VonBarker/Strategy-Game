@@ -23,15 +23,13 @@ targetY = y;
 
 path = path_add();
 
-if (instance_exists(obj_Player)) {
-	target = obj_Player;
+if (instance_exists(obj_Troop)) {
+	target = obj_Troop;
 	targetX = target.x;
 	targetY = target.y;
 }
 
 visionCollisionObjects = [obj_Wall];
-
-alarm[1] = 10;
 
 startX = x;
 startY = y;
@@ -42,6 +40,7 @@ sightRadius = 96;
 
 idleState = function() {
 	sightRadius = 96;
+	if (obj_Game.roundStarted) alarm[1] = 1;
 }
 
 createPathState = function() {

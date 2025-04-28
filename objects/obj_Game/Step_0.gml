@@ -1,3 +1,5 @@
+var middleClick = mouse_check_button_pressed(mb_middle);
+
 if(roundStarted && !instance_exists(obj_Troop)) {
 	roundStarted = false;
 	roundEnded = true;
@@ -16,4 +18,9 @@ if(roundStarted && !instance_exists(obj_EnemyTroop)) {
 if (instance_exists(obj_RoundStartButton)) {
 	troopCounter.number = instance_number(obj_Troop);
 	enemyTroopCounter.number = instance_number(obj_EnemyTroop);
+}
+
+if (room >= 7 && middleClick) {
+	obj_Troop.startX = mouse_x;
+	obj_Troop.startY = mouse_y;
 }

@@ -24,5 +24,3 @@ knockedBack = 0;
 knockedBackDirection = 0;
 stunnedTime = 0;
 invincible = false;
-
-alarm[0] = 20;
