@@ -1,6 +1,6 @@
 gridSize = 16;
-gridXOffset = 0;
-gridYOffset = 0;
+gridXOffset = -8;
+gridYOffset = -8;
 
 selectedTroop = noone;
 

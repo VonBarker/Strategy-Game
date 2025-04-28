@@ -63,6 +63,8 @@
     {"name":"obj_Wall","order":1,"path":"objects/obj_Wall/obj_Wall.yy",},
     {"name":"obj_WarriorTroop","order":1,"path":"objects/obj_WarriorTroop/obj_WarriorTroop.yy",},
     {"name":"obj_WarriorTroopLOS","order":3,"path":"objects/obj_WarriorTroopLOS/obj_WarriorTroopLOS.yy",},
+    {"name":"obj_WarriorTroopLOSPlacer","order":4,"path":"objects/obj_WarriorTroopLOSPlacer/obj_WarriorTroopLOSPlacer.yy",},
+    {"name":"obj_WarriorTroopLOSSelector","order":10,"path":"objects/obj_WarriorTroopLOSSelector/obj_WarriorTroopLOSSelector.yy",},
     {"name":"obj_WarriorTroopPlacer","order":2,"path":"objects/obj_WarriorTroopPlacer/obj_WarriorTroopPlacer.yy",},
     {"name":"obj_WarriorTroopSelector","order":8,"path":"objects/obj_WarriorTroopSelector/obj_WarriorTroopSelector.yy",},
     {"name":"Level2","order":1,"path":"rooms/Level2/Level2.yy",},

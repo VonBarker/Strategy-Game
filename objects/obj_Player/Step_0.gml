@@ -5,12 +5,19 @@ var keyRight = keyboard_check(ord("D"));
 var keyAttack = mouse_check_button(mb_left);
 var keyRangedAttack = mouse_check_button(mb_right);
 
+if (!obj_Game.roundStarted) {
+	keyUp = 0;
+	keyDown = 0;
+	keyLeft = 0;
+	keyRight = 0;
+	keyAttack = 0;
+	keyRangedAttack = 0;
+}
+
 if (keyRight - keyLeft != 0 && keyDown - keyUp != 0) var spd = defaultSpd/14*10;
 else spd = defaultSpd
-if (obj_Game.roundStarted) {
-	hsp = (keyRight - keyLeft)*spd;
-	vsp = (keyDown - keyUp)*spd;
-}
+hsp = (keyRight - keyLeft)*spd;
+vsp = (keyDown - keyUp)*spd;
 
 //Horizontal Collision
 if(place_meeting(x+hsp,y,obj_Collision)) {

@@ -112,6 +112,8 @@
     {"id":{"name":"obj_WarriorAttack","path":"objects/obj_WarriorAttack/obj_WarriorAttack.yy",},},
     {"id":{"name":"obj_WarriorTroop","path":"objects/obj_WarriorTroop/obj_WarriorTroop.yy",},},
     {"id":{"name":"obj_WarriorTroopLOS","path":"objects/obj_WarriorTroopLOS/obj_WarriorTroopLOS.yy",},},
+    {"id":{"name":"obj_WarriorTroopLOSPlacer","path":"objects/obj_WarriorTroopLOSPlacer/obj_WarriorTroopLOSPlacer.yy",},},
+    {"id":{"name":"obj_WarriorTroopLOSSelector","path":"objects/obj_WarriorTroopLOSSelector/obj_WarriorTroopLOSSelector.yy",},},
     {"id":{"name":"obj_WarriorTroopPlacer","path":"objects/obj_WarriorTroopPlacer/obj_WarriorTroopPlacer.yy",},},
     {"id":{"name":"obj_WarriorTroopSelector","path":"objects/obj_WarriorTroopSelector/obj_WarriorTroopSelector.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
