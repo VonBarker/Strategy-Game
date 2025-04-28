@@ -1,3 +1,5 @@
+obj_Game.troopsPlaced += 1;
+
 defaultSpd = 0.75;
 hsp = 0;
 vsp = 0;

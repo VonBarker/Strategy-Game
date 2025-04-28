@@ -1,4 +1,4 @@
-obj_Game.troopsPlaced +=1;
+obj_Game.troopsPlaced += 1;
 spd = 0.5;
 
 thisWarriorsAttack = noone;

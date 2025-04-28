@@ -29,6 +29,7 @@
     {"name":"inst_7682BF33","path":"rooms/Level6/Level6.yy",},
     {"name":"inst_B033478_2","path":"rooms/Level6/Level6.yy",},
     {"name":"inst_1FC10B8E","path":"rooms/Level6/Level6.yy",},
+    {"name":"inst_225D05B7","path":"rooms/Level6/Level6.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -56,6 +57,7 @@
         {"$GMRInstance":"v1","%Name":"inst_6206366F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6206366F","objectId":{"name":"obj_EnemyArcherTroopLOS","path":"objects/obj_EnemyArcherTroopLOS/obj_EnemyArcherTroopLOS.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":408.0,"y":88.0,},
         {"$GMRInstance":"v1","%Name":"inst_2442AB32","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2442AB32","objectId":{"name":"obj_EnemyArcherTroopLOS","path":"objects/obj_EnemyArcherTroopLOS/obj_EnemyArcherTroopLOS.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":456.0,"y":232.0,},
         {"$GMRInstance":"v1","%Name":"inst_1FC10B8E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1FC10B8E","objectId":{"name":"obj_WarriorTroopLOSSelector","path":"objects/obj_WarriorTroopLOSSelector/obj_WarriorTroopLOSSelector.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":32.0,"y":136.0,},
+        {"$GMRInstance":"v1","%Name":"inst_225D05B7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_225D05B7","objectId":{"name":"obj_TroopDeleterSelector","path":"objects/obj_TroopDeleterSelector/obj_TroopDeleterSelector.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.46666667,"scaleY":0.46666667,"x":80.0,"y":136.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"GUI","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2CCDD850_2","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2CCDD850_2","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_Inputs","path":"sprites/spr_Inputs/spr_Inputs.yy",},"x":36.0,"y":64.0,},
