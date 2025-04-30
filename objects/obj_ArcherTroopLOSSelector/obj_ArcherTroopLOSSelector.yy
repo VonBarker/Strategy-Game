@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ArcherTroop",
-    "path":"sprites/spr_ArcherTroop/spr_ArcherTroop.yy",
+    "name":"spr_ArcherTroopSelector",
+    "path":"sprites/spr_ArcherTroopSelector/spr_ArcherTroopSelector.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_TankTroop",
-    "path":"sprites/spr_TankTroop/spr_TankTroop.yy",
+    "name":"spr_TankTroopSelector",
+    "path":"sprites/spr_TankTroopSelector/spr_TankTroopSelector.yy",
   },
   "spriteMaskId":null,
   "visible":true,

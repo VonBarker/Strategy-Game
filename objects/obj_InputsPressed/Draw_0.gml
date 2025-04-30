@@ -10,3 +10,4 @@ else draw_sprite(spr_Inputs, 3, x, y);
 draw_sprite(spr_Inputs, 4, x, y);
 if (mouse_check_button(mb_left)) draw_sprite(spr_InputsPressed, 4, x, y);
 if (mouse_check_button(mb_right)) draw_sprite(spr_InputsPressed, 5, x, y);
+if (mouse_check_button(mb_middle)) draw_sprite(spr_InputsPressed, 6, x, y);

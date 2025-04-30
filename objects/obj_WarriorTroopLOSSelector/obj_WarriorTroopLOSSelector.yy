@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_WarriorTroop",
-    "path":"sprites/spr_WarriorTroop/spr_WarriorTroop.yy",
+    "name":"spr_WarriorTroopSelector",
+    "path":"sprites/spr_WarriorTroopSelector/spr_WarriorTroopSelector.yy",
   },
   "spriteMaskId":null,
   "visible":true,
