@@ -17,10 +17,9 @@ function VisionForObjects(sightRadius, target, visionCollisionObjects){
 			else sightRadius = 96;
 	    }
 	}
-	else if (x != self.startX && y != self.startY) {
+	else {
 		self.sightRadius = 96;
 		self.state = returnToStartState;
 	}
-	else self.state = idleState;
 	ds_list_destroy(list);
 }
