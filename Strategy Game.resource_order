@@ -97,6 +97,7 @@
     {"name":"spr_EnemyWarriorTroop","order":1,"path":"sprites/spr_EnemyWarriorTroop/spr_EnemyWarriorTroop.yy",},
     {"name":"spr_Grid","order":2,"path":"sprites/spr_Grid/spr_Grid.yy",},
     {"name":"spr_GridSmall","order":27,"path":"sprites/spr_GridSmall/spr_GridSmall.yy",},
+    {"name":"spr_GuiZone_1","order":13,"path":"sprites/spr_GuiZone_1/spr_GuiZone_1.yy",},
     {"name":"spr_GuiZone","order":9,"path":"sprites/spr_GuiZone/spr_GuiZone.yy",},
     {"name":"spr_Inputs","order":5,"path":"sprites/spr_Inputs/spr_Inputs.yy",},
     {"name":"spr_InputsPressed","order":11,"path":"sprites/spr_InputsPressed/spr_InputsPressed.yy",},
