@@ -23,6 +23,7 @@
     {"name":"inst_13C6C7A0","path":"rooms/Level5/Level5.yy",},
     {"name":"inst_3E1E006","path":"rooms/Level5/Level5.yy",},
     {"name":"inst_6F445E56","path":"rooms/Level5/Level5.yy",},
+    {"name":"inst_C9E1402","path":"rooms/Level5/Level5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -44,6 +45,7 @@
         {"$GMRInstance":"v1","%Name":"inst_13C6C7A0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13C6C7A0","objectId":{"name":"obj_InputsPressed","path":"objects/obj_InputsPressed/obj_InputsPressed.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":36.0,"y":64.0,},
         {"$GMRInstance":"v1","%Name":"inst_3E1E006","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E1E006","objectId":{"name":"obj_EnemyArcherTroopLOS","path":"objects/obj_EnemyArcherTroopLOS/obj_EnemyArcherTroopLOS.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":96.0,},
         {"$GMRInstance":"v1","%Name":"inst_6F445E56","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F445E56","objectId":{"name":"obj_EnemyArcherTroopLOS","path":"objects/obj_EnemyArcherTroopLOS/obj_EnemyArcherTroopLOS.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":224.0,},
+        {"$GMRInstance":"v1","%Name":"inst_C9E1402","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C9E1402","objectId":{"name":"obj_SearchBar","path":"objects/obj_SearchBar/obj_SearchBar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":75.0,"y":30.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"GUI","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2CCDD850_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2CCDD850_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_Inputs","path":"sprites/spr_Inputs/spr_Inputs.yy",},"x":36.0,"y":64.0,},

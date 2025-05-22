@@ -59,6 +59,7 @@
   "name":"Strategy Game",
   "resources":[
     {"id":{"name":"font_Menu","path":"fonts/font_Menu/font_Menu.yy",},},
+    {"id":{"name":"CheatCodes","path":"notes/CheatCodes/CheatCodes.yy",},},
     {"id":{"name":"Credits","path":"notes/Credits/Credits.yy",},},
     {"id":{"name":"obj_ArcherAttack","path":"objects/obj_ArcherAttack/obj_ArcherAttack.yy",},},
     {"id":{"name":"obj_ArcherTroop","path":"objects/obj_ArcherTroop/obj_ArcherTroop.yy",},},
@@ -132,6 +133,7 @@
     {"id":{"name":"returnToStart","path":"rooms/returnToStart/returnToStart.yy",},},
     {"id":{"name":"StartScreen","path":"rooms/StartScreen/StartScreen.yy",},},
     {"id":{"name":"Dialog","path":"scripts/Dialog/Dialog.yy",},},
+    {"id":{"name":"drawCollisionMask","path":"scripts/drawCollisionMask/drawCollisionMask.yy",},},
     {"id":{"name":"MenuFunctions","path":"scripts/MenuFunctions/MenuFunctions.yy",},},
     {"id":{"name":"Screenshake","path":"scripts/Screenshake/Screenshake.yy",},},
     {"id":{"name":"SettingsMenu","path":"scripts/SettingsMenu/SettingsMenu.yy",},},

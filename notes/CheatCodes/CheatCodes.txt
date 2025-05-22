@@ -1,0 +1,8 @@
+dev skip <levelNumber>
+// Skips to <levelNumber>
+
+^^vv<><>ba
+// Sets max troops to 999
+
+DEBUG#$% TOGGLE
+// Toggles the debug overlays

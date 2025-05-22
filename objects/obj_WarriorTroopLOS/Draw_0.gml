@@ -1,7 +1,11 @@
-if (debug_mode) {
+if (obj_Settings.debugMode == true) {
+	draw_set_color(c_red);
 	draw_path(path, x, y, true);
+	drawCollisionMask();
 	draw_circle(x, y, sightRadius, true);
 }
+
+draw_set_color(c_white);
 
 // Health Bar
 if (obj_Game.showHealthBars = true) {

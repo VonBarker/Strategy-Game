@@ -23,6 +23,7 @@
     {"name":"WorldObjects","order":34,"path":"folders/Sprites/WorldObjects.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"CheatCodes","order":2,"path":"notes/CheatCodes/CheatCodes.yy",},
     {"name":"Credits","order":1,"path":"notes/Credits/Credits.yy",},
     {"name":"obj_ArcherTroop","order":1,"path":"objects/obj_ArcherTroop/obj_ArcherTroop.yy",},
     {"name":"obj_ArcherTroopLOS","order":3,"path":"objects/obj_ArcherTroopLOS/obj_ArcherTroopLOS.yy",},
@@ -80,6 +81,7 @@
     {"name":"LevelTutorial","order":6,"path":"rooms/LevelTutorial/LevelTutorial.yy",},
     {"name":"returnToStart","order":5,"path":"rooms/returnToStart/returnToStart.yy",},
     {"name":"Dialog","order":2,"path":"scripts/Dialog/Dialog.yy",},
+    {"name":"drawCollisionMask","order":4,"path":"scripts/drawCollisionMask/drawCollisionMask.yy",},
     {"name":"Screenshake","order":1,"path":"scripts/Screenshake/Screenshake.yy",},
     {"name":"VisionForObjects","order":3,"path":"scripts/VisionForObjects/VisionForObjects.yy",},
     {"name":"spr_ArcherTroop","order":1,"path":"sprites/spr_ArcherTroop/spr_ArcherTroop.yy",},

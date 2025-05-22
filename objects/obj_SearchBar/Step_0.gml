@@ -14,9 +14,22 @@ previousKeyboard_string = keyboard_string;
 if (typing && keyboard_check_pressed(vk_enter)) {
 	typing = false
 	if (string_count("dev skip ", text) > 0) {
+		try {
 		var levelNumber = string_split(text,"dev skip ", true);
-		room_goto(real(levelNumber[0]) + 1);
+		if (room_exists(real(levelNumber[0]) + 1)) room_goto(real(levelNumber[0]) + 1);
+		}
+		catch( _exception) {
+			show_debug_message(_exception.message);
+		}
 	}
+	else if (text == "^^vv<><>ba") {
+		obj_Game.maxTroops = 999;
+	}
+	else if (text == "DEBUG#$% TOGGLE") {
+		obj_Settings.debugMode = !obj_Settings.debugMode;
+	}
+	text = "";
+	keyboard_string = "";
 }
 
 if (typing) image_index = 1;
